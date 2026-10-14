@@ -13,7 +13,9 @@ function List(){
 
     return (
         <div className="List"> 
+            <div className="row">
             {products}
+            </div>
         </div>
     )
 }
